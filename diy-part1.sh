@@ -34,6 +34,6 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git haichuan https://github.com/haichuan2001/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/haichuan2001/small' feeds.conf.default
-sed -i '$a src-git AdGuardHome https://github.com/haichuan2001/AdGuardHome.git' feeds.conf.default
+#sed -i '$a src-git AdGuardHome https://github.com/haichuan2001/AdGuardHome.git' feeds.conf.default
 #sed -i '$a src-git AdGuardHome https://github.com/haichuan2001/luci-app-adguardhome.git' feeds.conf.default
 sed -i '$a src-git IPTV https://github.com/haichuan2001/openwrt-iptvhelper.git' feeds.conf.default
